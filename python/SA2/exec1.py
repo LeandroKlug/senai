@@ -34,13 +34,10 @@ def sortAsc(lista):
 
         for j in range(n - i - 1):
             if lista[j] > lista[j + 1]:
-
                 lista[j], lista[j + 1] = lista[j + 1], lista[j]
-
                 ordenar = False
         if ordenar:
             break
-
     return lista
 
 def sortDesc(lista):
@@ -48,16 +45,12 @@ def sortDesc(lista):
 
     for i in range(n):   
         ordenar = True
-
         for j in range(n - i - 1):
             if lista[j] < lista[j + 1]:
-
                 lista[j], lista[j + 1] = lista[j + 1], lista[j]
-
                 ordenar = False
         if ordenar:
             break
-
     return lista
 
 #============================================================
